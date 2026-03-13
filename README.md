@@ -131,7 +131,7 @@ AI_UseCase/
 
 1. **Clone the repository**
 ```bash
-cd AI_UseCase
+git clone https://github.com/gajulaakanksha/ESG_intelligence_hub.git
 ```
 
 2. **Install dependencies**
