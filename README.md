@@ -156,6 +156,10 @@ Get your API keys:
 streamlit run app.py
 ```
 
+## Application Demo
+
+!https://github.com/gajulaakanksha/ESG_intelligence_hub/blob/main/images/Screenshot_4.png
+
 ## Usage
 
 ### Basic Query
