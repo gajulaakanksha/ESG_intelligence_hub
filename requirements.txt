@@ -1,0 +1,13 @@
+streamlit
+langchain-groq
+langchain
+langchain-core
+langchain-community
+faiss-cpu
+sentence-transformers
+duckduckgo-search
+PyPDF2
+python-dotenv
+torch
+torchvision
+torchaudio
