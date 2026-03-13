@@ -39,11 +39,11 @@ This application combines local document analysis with live web search to provid
          │
          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                         Knowledge Base                          │
-│                     ┌──────────────────────┐                    │
-│                     │      Google          │                    │
-│                     │    ESG Report        │                    │
-│                     └──────────────────────┘                    │ 
+│                    Knowledge Base                               │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐   │
+│  │ Microsoft    │  │    Apple     │  │      Google          │   │
+│  │ ESG Report   │  │  ESG Report  │  │    ESG Report        │   │
+│  └──────────────┘  └──────────────┘  └──────────────────────┘   │
 │                                                                 │
 │  ┌──────────────────────────────────────────────────────────┐   │
 │  │           User-Uploaded Documents (PDF)                  │   │
@@ -118,7 +118,9 @@ AI_UseCase/
 │   ├── rag_utils.py           # RAG pipeline utilities
 │   └── search_utils.py        # Web search integration
 ├── data/
+│   ├── Apple-2024-ESG.pdf
 │   ├── Google-2024-ESG.pdf
+│   └── Microsoft-2024-ESG.pdf
 ├── requirements.txt           # Python dependencies
 ├── sample_questions.md        # Example queries
 ├── .env                       # API keys (not in git)
